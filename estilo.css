@@ -1,10 +1,12 @@
 *{
-    background-color: rgba(199, 163, 241, 0.74);
+    background-color: rgba(221, 210, 234, 0.74);
 }
 h1{
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-style: oblique;
+ font-family: fantasy;
    color: blue;
    text-align: center;
+   font-size: 300%;
 }
 #container {
     width: 360px;
@@ -16,12 +18,13 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+ 
   }
   
   .square {
     width: 100px;
     height: 100px;
-    border: 2px solid black;
+    border: 5px solid black;
     border-radius: 22px;
     text-align: center;
     font-size: 3em;
@@ -29,7 +32,8 @@ h1{
     box-sizing: border-box;
     cursor: pointer;
     margin: 6px;
-    color: rgba(176, 137, 212, 0.76);
+    color: rgb(92, 223, 149);
+    background-color: rgba(220, 20, 60, 0.76);
   }
   
   .square:nth-child(3n+1) {
@@ -43,6 +47,4 @@ h1{
   .square:nth-child(-n+3) {
     margin-top: 5px;
   }
-  .highlight {
-    box-shadow: 0 0 10px blue;
-  }
+ 
