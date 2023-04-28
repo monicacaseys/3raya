@@ -1,4 +1,4 @@
-let symbol = "$"; // símbolo que se dibujará al hacer clic
+let symbol = "♔"; // símbolo que se dibujará al hacer clic
 
 function highlightCell(cellId) {
   let cell = document.getElementById(cellId);
@@ -16,9 +16,9 @@ let symbols = ['', '', '', '', '', '', '', '', ''];
 function drawSymbol(index) {
   const square = document.getElementById(index);
   if (symbols[index] === '') {
-    square.textContent = '$';
+    square.textContent = '♔';
     square.style.fontWeight = 'bold'; 
-    symbols[index] = '$';
+    symbols[index] = '♔';
     checkWin();
   }
 }
