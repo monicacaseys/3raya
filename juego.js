@@ -1,5 +1,3 @@
-let symbol = "♔"; // símbolo que se dibujará al hacer clic
-
 function highlightCell(cellId) {
   let cell = document.getElementById(cellId);
   cell.style.border = "6px solid blue";
