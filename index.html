@@ -31,15 +31,20 @@
 		<div class="square" id="8" onmouseenter="highlightCell('8')" onmouseleave="unhighlightCell('8')"
 			onclick="drawSymbol('8')"></div>
 	</div>
+	
+	<button id="more-info">Más información</button>
 	<script src="./juego.js"></script>
 	<script>
-		window.onload = function () {
-			alert("¡Bienvenide! \n Monica Seys Oltra \t 1º DAW \nTema: gatos o Drags Queens");
-		}
+		const moreInfoButton = document.getElementById('more-info');
+		moreInfoButton.addEventListener('click', () => {
+			const message = '"¡Bienvenide! \n Monica Seys Oltra \t 1º DAW \nTema: gatos o Drags Queens"';
+			alert(message);
+		});
 	</script>
-		
-	
-	
+
+
+
+
 
 </body>
 
